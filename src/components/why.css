@@ -41,6 +41,7 @@
         color: var(--color-white);
         font-family: var(--font-heading2);
         padding-bottom: 1rem;
+        text-align: center;
     }
 
     .marine_why-container P {

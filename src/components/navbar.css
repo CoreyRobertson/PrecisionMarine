@@ -116,7 +116,7 @@
         flex-direction: column;
         /* // makes menu span full height and width */
         width: 100%;
-        height: calc(50vh - 77px);
+        height: 510px;
         background-color: white;
 
     }
@@ -132,6 +132,7 @@
         /* // increases the surface area of the anchor tag to span the full width of the menu */
         width: 100%;
         padding: 1.5rem 0;
+
     }
 
     .navigation-menu li:hover {
@@ -196,7 +197,7 @@
         flex-direction: column;
         /* // makes menu span full height and width */
         width: 100%;
-        height: calc(70vh - 77px);
+        height: 180px;
         background-color: white;
 
     }
@@ -211,7 +212,8 @@
         color: black;
         /* // increases the surface area of the anchor tag to span the full width of the menu */
         width: 100%;
-        padding: 1.5rem 0;
+        padding: 0.2rem 0;
+        font-size: 14px;
     }
 
     .navigation-menu li:hover {

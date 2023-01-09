@@ -6,3 +6,25 @@
   background-attachment: fixed;
 
 }
+
+@media screen and (max-width:850px) {
+  .app_bg {
+    background: url('./assets/boat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+  }
+}
+
+@media screen and (max-width:450px) {
+  .app_bg {
+    background: url('./assets/boat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+  }
+}

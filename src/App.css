@@ -2,7 +2,7 @@
   background: url('./assets/boat.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 
 }

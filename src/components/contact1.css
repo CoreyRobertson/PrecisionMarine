@@ -130,7 +130,7 @@ input[type="email"] {
         align-items: center;
         background-color: var(--color-lightblue);
         z-index: 1;
-        height: 80vh;
+        height: 900px;
     }
 
     .contact1_container {
@@ -263,7 +263,7 @@ input[type="email"] {
         align-items: center;
         background-color: var(--color-lightblue);
         z-index: 1;
-        height: 80vh;
+        height: 900px;
     }
 
     .contact1_container {

@@ -34,7 +34,7 @@
 
     .marine_header {
         display: flex;
-        height: 100vh;
+        height: 1200px;
         flex-direction: row;
         justify-content: center;
         z-index: -4;
@@ -71,7 +71,7 @@
 
     .marine_header {
         display: flex;
-        height: 100vh;
+        height: 900px;
         flex-direction: row;
         justify-content: center;
         z-index: -4;

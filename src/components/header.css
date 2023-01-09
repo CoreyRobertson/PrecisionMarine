@@ -1,0 +1,102 @@
+.marine_header {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: -4;
+
+}
+
+.marine_header-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-size: 120px;
+    color: var(--color-white);
+    opacity: .7;
+
+    margin: 12rem;
+
+}
+
+.marine_header-heading h1 {
+    text-align: right;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    width: 50rem;
+    font-style: italic;
+    line-height: 160px;
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .marine_header {
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+        z-index: -4;
+
+    }
+
+    .marine_header-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 90px;
+        color: var(--color-white);
+        opacity: .7;
+
+        margin: 12rem;
+
+    }
+
+    .marine_header-heading h1 {
+        text-align: right;
+        font-family: var(--font-heading);
+        font-weight: 700;
+        width: 40rem;
+        font-style: italic;
+        line-height: 120px;
+
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .marine_header {
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        justify-content: center;
+        z-index: -4;
+    }
+
+    .marine_header-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: var(--color-white);
+        opacity: .7;
+
+        margin: 1rem;
+
+    }
+
+    .marine_header-heading h1 {
+        text-align: center;
+        font-family: var(--font-heading);
+        font-weight: 700;
+        width: 22rem;
+        font-style: italic;
+        line-height: 75px;
+
+    }
+
+}

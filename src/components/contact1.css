@@ -1,0 +1,390 @@
+.marine_contact1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-lightblue);
+    z-index: 1;
+    height: 80vh;
+}
+
+.contact1_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+
+    transition: 1s;
+    padding-top: 10rem;
+    z-index: 1;
+}
+
+.contact1_text h1 {
+    font-family: var(--font-heading2);
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--color-white);
+    z-index: 1;
+}
+
+.contact1_text h2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-text);
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--color-darkblue);
+    z-index: 1;
+}
+
+.contact1_form-container {
+    border-radius: 10px;
+    background-color: var(--color-lightblue);
+    border: solid 2px var(--color-white);
+    padding: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 1s;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.contact1_form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+.contact1_form-container input {
+
+    background-color: var(--color-white);
+    margin: .5rem;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    /* font-family: var(--font-family); */
+
+}
+
+input[type="text"] {
+    font-family: var(--font-text);
+    color: var(--color-darkblue);
+    /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 18px;
+}
+
+input[type="email"] {
+    font-family: var(--font-text);
+    color: var(--color-darkblue);
+    /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 18px;
+}
+
+.text {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: none;
+    background-color: var(--color-darkblue);
+    height: 2rem;
+}
+
+.project {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border: none;
+    height: 5rem;
+    background-color: var(--color-light);
+}
+
+.button1 {
+    background-color: var(--color-darkblue);
+    color: var(--color-darkblue);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button1 {
+    transition: 0.5s;
+}
+
+.button1:hover {
+    transition: 0.5s;
+    transform: scale(110%);
+}
+
+@media screen and (max-width: 850px) {
+    .marine_contact1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--color-lightblue);
+        z-index: 1;
+        height: 80vh;
+    }
+
+    .contact1_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 500px;
+
+        transition: 1s;
+        padding-top: 10rem;
+        z-index: 1;
+    }
+
+    .contact1_text h1 {
+        font-family: var(--font-heading2);
+        font-size: 60px;
+        line-height: 80px;
+        font-weight: bold;
+        color: var(--color-white);
+        z-index: 1;
+    }
+
+    .contact1_text h2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-text);
+        font-size: 32px;
+        font-weight: bold;
+        color: var(--color-darkblue);
+        z-index: 1;
+    }
+
+    .contact1_form-container {
+        border-radius: 10px;
+        background-color: var(--color-lightblue);
+        padding: 1rem;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        transition: 1s;
+        z-index: 1;
+        flex-wrap: wrap;
+    }
+
+    .contact1_form-container form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .contact1_form-container input {
+
+        background-color: var(--color-white);
+        margin: .5rem;
+        padding: 10px;
+        width: 350px;
+        border-radius: 10px;
+        /* font-family: var(--font-family); */
+
+    }
+
+    input[type="text"] {
+        font-family: var(--font-text);
+        color: var(--color-darkblue);
+        /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    input[type="email"] {
+        font-family: var(--font-text);
+        color: var(--color-darkblue);
+        /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .text {
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        border: none;
+        background-color: var(--color-darkblue);
+        height: 2rem;
+    }
+
+    .project {
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        border: none;
+        height: 5rem;
+        background-color: var(--color-light);
+    }
+
+    .button1 {
+        background-color: var(--color-dark);
+        color: var(--color-darkblue);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+
+
+}
+
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    position: fixed;
+    z-index: 10;
+}
+
+@media screen and (max-width: 450px) {
+    .marine_contact1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--color-lightblue);
+        z-index: 1;
+        height: 80vh;
+    }
+
+    .contact1_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 500px;
+
+        transition: 1s;
+        padding-top: 10rem;
+        z-index: 1;
+    }
+
+    .contact1_text h1 {
+        font-family: var(--font-heading2);
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: var(--color-white);
+        z-index: 1;
+    }
+
+    .contact1_text h2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-text);
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--color-darkblue);
+        z-index: 1;
+    }
+
+    .contact1_form-container {
+        border-radius: 10px;
+        background-color: var(--color-lightblue);
+        padding: 1rem;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        transition: 1s;
+        z-index: 1;
+        flex-wrap: wrap;
+    }
+
+    .contact1_form-container form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .contact1_form-container input {
+
+        background-color: var(--color-white);
+        margin: .5rem;
+        padding: 10px;
+        width: 250px;
+        border-radius: 10px;
+        /* font-family: var(--font-family); */
+
+    }
+
+    input[type="text"] {
+        font-family: var(--font-text);
+        color: var(--color-darkblue);
+        /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    input[type="email"] {
+        font-family: var(--font-text);
+        color: var(--color-darkblue);
+        /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.3);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .text {
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        border: none;
+        background-color: var(--color-darkblue);
+        height: 2rem;
+    }
+
+    .project {
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        border: none;
+        height: 5rem;
+        background-color: var(--color-light);
+    }
+
+    .button1 {
+        background-color: var(--color-dark);
+        color: var(--color-darkblue);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+
+
+}
+
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    position: fixed;
+    z-index: 10;
+}
